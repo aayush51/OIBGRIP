@@ -1,0 +1,400 @@
+/* Author :- Aayush More */
+/* Created Date :- 01/02/2023 */
+/* Last Modified :- 06/02/2023 */
+body {
+    background-color: cornsilk;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: rgb(253, 234, 160);
+    font-family: 'Roboto Slab', serif ;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.top-ruler {
+    border: 0px;
+    border-top: solid #A75D5D 6px;
+    color: white;
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.navbar-header {
+    background-color: #fffee3;
+    border: 3px solid #3c261f;
+    border-radius: 10px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-right:5px;
+    margin-left: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar-header1 {
+    margin-left: 40px;
+}
+
+.main-content {
+    width: 97%;
+}
+.landpage {
+    padding-bottom: 50px;
+    
+}
+.main-content img {
+    float: right;
+    margin-left: 0%;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 550px;
+}
+
+.main-content .leadheads {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 700px;
+}
+.main-content .leadheading {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 700px;
+}
+.main-content .leadtext {
+    font-family: 'Roboto Slab', serif ;
+    color: grey;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.aboutus .ourhistory {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    margin: 0 50px 0 600px;
+    width:800px;
+}
+.aboutus .ourvision {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    margin: 0 50px 0 600px;
+    width:800px;
+}
+.aboutus .ourmission {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    margin: 0 50px 0 600px;
+    width:800px;
+}
+.aboutus img {
+    margin-left: 100px;
+    float: left;
+    width: 400px;
+}
+.courses {
+    width: 97%;
+}
+.courses h2 {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.courses .course1 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    height:630px;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course2 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course3 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course4 {    
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course5 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course6 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course7 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course8 {
+    background-color: rgb(253, 234, 160);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    width: 430px;
+    height:630px;
+    border-bottom: #ffd284 5px solid;
+    border-left: #ffd284 5px solid;
+    border-right: #ffd284 5px solid;
+}
+.courses .course1 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course2 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course3 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course4 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course5 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course6 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course7 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.courses .course8 img {
+    height: 250px;
+    width: 430px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: #ffb284 5px solid;
+}
+.coursecontent {
+    padding: 20px;
+}
+
+.subscriptions h2 {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subscriptions {
+    height: 400px;
+    margin-top: 1950px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 97%;
+}
+.subscription1 {
+    background-color: #ffd284;
+    border: #6f473a 3px solid;
+    border-radius: 15px;
+    float: left;
+    font-family: 'Roboto Slab', serif ;
+    margin: 50px 100px 50px 200px;
+    padding: 20px 35px 35px 35px;
+    width: 10%;
+}
+.subscription2 {
+    background-color: #ffd284;
+    border: #6f473a 3px solid;
+    border-radius: 15px;
+    float: left;    
+    font-family: 'Roboto Slab', serif ;
+    margin: 50px 100px 50px 100px;
+    padding: 20px 35px 35px 35px;
+    width: 10%;
+}
+.subscription3 {
+    background-color: #ffd284;
+    border: #6f473a 3px solid;
+    border-radius: 15px;
+    float: left;
+    font-family: 'Roboto Slab', serif ;
+    margin: 50px 200px 50px 100px;
+    padding: 20px 35px 35px 35px;
+    width: 10%;
+}
+.aboutus {
+    width: 97%;
+}
+.aboutus h2 {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: ;
+    width: 100%;
+}
+.contactus h2 {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactus {
+    width: 97%;
+}
+.contact {
+    font-family: 'Roboto Slab', serif ;
+    margin: 30px 0px 100px 600px;
+}
+.contactus img {
+    float: left;
+    margin: 0px 0px 100px 200px;
+    width: 170px;
+}
+.contactus .contact .email {
+    text-decoration: none;
+    color:#000;
+}
+
+footer {
+    background-color: #A75D5D;
+    color: white;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+.btn {
+    background: #ffbd81;
+    background-image: -webkit-linear-gradient(top, #ffbd81, #d3756b);
+    background-image: -moz-linear-gradient(top, #ffbd81, #d3756b);
+    background-image: -ms-linear-gradient(top, #ffbd81, #d3756b);
+    background-image: -o-linear-gradient(top, #ffbd81, #d3756b);
+    background-image: linear-gradient(to bottom, #ffbd81, #d3756b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Roboto Slab', serif ;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffed80;
+    background-image: -webkit-linear-gradient(top, #ffed80, #b2845a);
+    background-image: -moz-linear-gradient(top, #ffed80, #b2845a);
+    background-image: -ms-linear-gradient(top, #ffed80, #b2845a);
+    background-image: -o-linear-gradient(top, #ffed80, #b2845a);
+    background-image: linear-gradient(to bottom, #ffed80, #b2845a);
+    text-decoration: none;
+  }
