@@ -1,0 +1,57 @@
+
+body {
+    background-color: cornsilk;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: bisque;
+    border-radius: 3%;
+    display: inline-block;
+    margin: 50px 400px;
+    padding: 50px 100px;
+    width: 500px;
+}
+
+.input_box {
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+h1 {
+    font-family:monospace;
+    font-size: 50px;
+    margin-top: 75px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.celc h2{
+    margin-top: 0;
+}
+
+input {
+    border-radius: 2;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: large;
+    height: 30px;
+    text-align: center;
+    width: 150px;
+}
+
+.icon {
+    float: left;
+    margin-right: 30px;
+    width: 80px;
+}
+.logo {
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    width: 55px;
+}

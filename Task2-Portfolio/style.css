@@ -1,0 +1,197 @@
+/* Author : Aayush More */
+/* Date : 20/02/2023 */
+/* Replacing Default CSS */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAF8F1;
+    font-family: 'Roboto', sans-serif;
+    /* 1519.200*815.812 */
+}
+
+a {
+    color: grey;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+a:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 5px solid #D4AC2B;
+    border-bottom: 0px;
+    border-radius: 35px;
+    color: #ffffff;
+    margin: 40px auto ;
+    padding: 0px;
+    width: 100px;
+}
+.navbar-nav {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+.navbar-nav td {
+    display:inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#home {
+    position:absolute;
+    top: 0px;
+}
+
+/* Headings H1 H2 H3 */
+h1 {
+    color: #D4AC2B;
+    font-size: 80px;
+    font-family: 'Sriracha', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 190px;
+}
+h1:hover {
+    color: #FFCE45;
+}
+
+h2 {
+    color: #D4AC2B;
+    font-size: 50px;
+    font-family: 'Sriracha', cursive;
+    margin-left: 190px;
+}
+h2:hover {
+    color: #FFCE45;
+}
+h3 {
+    color: #B05E27;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+/* Navbar Section */
+.nav-item a {
+    color: #C58940;
+    font-weight: 800;
+
+}
+nav.navbar {
+    background-image: linear-gradient(to bottom,#FAEAB1,#FAF8F1);
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.navbar img {
+    display: inline-block ;
+    padding: 10px;
+    width: 35px;
+}
+.navbar-list {
+    display: inline-block;
+    width: 100%;
+}
+td.navbar-nav {
+    font-size: 17px;
+    display: inline-block ;
+    position: absolute;
+    top: 18px;
+}
+
+/* First Intro Page */
+.introduction .intro-img img {
+    background-image:linear-gradient(to left top,#FAC213,#FEF9A7);
+    border-radius: 20% 3% 20% 3%;
+    margin-top: 20px;
+    padding: 45px 145px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 170px;
+}
+.introduction .intro-resume a {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.introduction .intro-description {
+    margin: 170px 0px 215px;
+}
+
+/* Button CSS */
+.btn {
+    background-color: #A47E3B;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 190px;
+    padding: 1rem 2rem;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    width: min-content;
+}
+.btn:hover {
+    background-color: #BF9742;
+    color: white;
+}
+
+/* About Section CSS */
+.about {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 3rem 5.5rem 0rem 5.5rem;
+}
+.education {
+    margin-top: 3rem;
+}
+.experience {
+    margin-top: 3rem;
+}
+.interests {
+    margin-top: 3rem;
+}
+.skills {
+    margin-top: 3rem;
+}
+
+.projects {
+    margin-top: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 3.2rem 5.5rem 0rem 5.5rem;
+
+}
+
+.contact {
+    margin-top: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 3.2rem 5.5rem 15rem 5.5rem;
+
+}
+.contact td {
+    padding-top: 155px;
+    padding-left: 130px;
+    text-align: center;
+}
+.contact img {
+    width: 80px;
+}
+/* Footer CSS */
+footer {
+    background-color: #FAEAB1;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 50px;
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+}

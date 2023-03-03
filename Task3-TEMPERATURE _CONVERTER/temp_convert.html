@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="temp_convert.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <img class="logo" src="images/674052.png" alt="logotemp">
+    <h1>Temperature Converter</h1>
+    <div class="container">
+        <div class="input_box">
+            <img class="icon" src="images/celsius.png" alt="Celsius">
+            <h2 class="celc" for="celsius">Celsius</h2>
+            <input type="number" id="celsius" oninput="celcius_to_fahrenheit()" place holder="value">
+        </div>
+        <div class="input_box">
+            <img class="icon" src="images/fahrenheit (1).png" alt="Fahrenheit">
+            <h2 for="fahrenheit">Fahrenheit</h2>
+            <input type="number" id="fahrenheit" oninput="fahrenheit_to_celcius()" place holder="value">
+        </div>
+    </div>
+    <script src="temp_convert.js"></script>
+</body>
+
+</html>
